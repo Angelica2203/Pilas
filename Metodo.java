@@ -39,10 +39,19 @@ public class Metodo {
         int numero;
         System.out.println("Ingrese el registro a eliminar");
         numero = sc.nextInt();
-        while (!pila.isEmpty()) {
-            if (pila.peek() ==) {
-                
+        while (!pila.isEmpty()) 
+        {
+            if (pila.peek() == numero) 
+            {
+                pila.pop();
+            }
+            else
+            {
+                auxPila.push(pila.pop());
             }
         }
+        System.out.println(pila);
+        System.out.println(auxPila.reversed());
+        return pila;
     }
 }

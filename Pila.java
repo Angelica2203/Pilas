@@ -9,7 +9,7 @@ public class Pila
         Metodo m = new Metodo();
         pila = m.LlenarPila();
         m.MostrarPila(pila);
-        pila = m.EliminarDatos(pila);
+        m.EliminarDatos(pila);
 
     }
 

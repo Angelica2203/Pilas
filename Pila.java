@@ -8,7 +8,8 @@ public class Pila
         Stack<Integer> pila = new Stack<>(); //palabra para declarar la pila es stack para trabajar con enteros es integer eso va entre <>
         Metodo m = new Metodo();
         pila = m.LlenarPila();
-        m.EliminarDatos(pila);
+        m.MostrarPila(pila);
+        pila = m.EliminarDatos(pila);
 
     }
 
